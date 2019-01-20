@@ -1,6 +1,6 @@
 # Integral-Human-Pose-Regression-for-3D-Human-Pose-Estimatin
 
-**Codes would be available soon!**
+**Codes will be available soon!**
 
 ## Introduction
 
