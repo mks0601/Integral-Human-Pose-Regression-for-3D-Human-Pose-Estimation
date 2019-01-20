@@ -1,15 +1,15 @@
 # Integral-Human-Pose-Regression-for-3D-Human-Pose-Estimatin
 
-**Codes would be released soon!**
+**Codes would be available soon!**
 
 ## Introduction
 
-This repo is **[PyTorch](https://pytorch.org/)** implementation of **[Integral-Human-Pose-Regressio (ECCV 2018)](https://arxiv.org/abs/1711.08229)** of MSRA for **3D human pose estimation** from a single RGB image.
+This repo is **[PyTorch](https://pytorch.org/)** implementation of **[Integral Human Pose Regression (ECCV 2018)](https://arxiv.org/abs/1711.08229)** of MSRA for **3D human pose estimation** from a single RGB image.
 
 **What this repo provides:**
 * [PyTorch](https://pytorch.org/) implementation of [Integral-Human-Pose-Regressio](https://arxiv.org/abs/1711.08229).
 * Flexible and simple code.
-* Dataset pre-processing code for **[MPII](http://human-pose.mpi-inf.mpg.de/)** and **[Human3.6M](http://vision.imar.ro/human3.6m/description.php)** dataset.
+* Dataset pre-processing codes for **[MPII](http://human-pose.mpi-inf.mpg.de/)** and **[Human3.6M](http://vision.imar.ro/human3.6m/description.php)** dataset.
 
 ## Dependencies
 * [PyTorch](https://pytorch.org/)
