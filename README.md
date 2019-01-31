@@ -1,6 +1,6 @@
-# Integral-Human-Pose-Regression-for-3D-Human-Pose-Estimatin
+# Integral-Human-Pose-Regression-for-3D-Human-Pose-Estimation
 <p align="center">
-<img src="https://cv.snu.ac.kr/research/Integral3DHumanPose/figs/2d_1.jpg" width="400" height="250"> <img src="https://cv.snu.ac.kr/research/Integral3DHumanPose/figs/3d_1.jpg" width="400" height="250">
+<img src="https://cv.snu.ac.kr/research/Integral3DHumanPose/figs/1.png" width="400" height="250"> <img src="https://cv.snu.ac.kr/research/Integral3DHumanPose/figs/2.png" width="400" height="250">
 </p>
 
 ## Introduction
@@ -116,10 +116,10 @@ Here I report the performance of the model from this repo and [the original pape
 The tables below are PA MPJPE and MPJPE on Human3.6M dataset. Provided `config.py` file is used to achieve below results. It's currently slightly worse than the performance of the original paper, however I'm trying to achieve the same performance. I think training schedule has to be changed.
 
 #### Protocol 1 (training subjects: 1,5,6,7,8,9, testing subjects: 11)
-**Protocol 1 model and result will be available soon!!**.
+Protocol 1 model and result will be available soon!!
 
 #### Protocl 2 (training subjects: 1,5,6,7,8, testing subjects: 9, 11), PA MPJPE
-**The PA MPJPEs of the paper are from protocol 1, however, note that protocol 2 uses smaller training set.**
+The PA MPJPEs of the paper are from protocol 1, however, note that protocol 2 uses smaller training set.
 | Methods | Dir. | Dis. | Eat | Gre. | Phon. | Pose | Pur. | Sit. | Sit D. | Smo. | Phot. | Wait | Walk | Walk D. | Walk P. | Avg |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | my repo | 39.0 | 38.6 | 44.1 | 42.5 | 40.6 | 35.3 | 38.2 | 49.9 | 59.4 | 41.00 | 46.1 | 37.6 | 30.3 | 40.8 | 35.5 | 41.5 |
