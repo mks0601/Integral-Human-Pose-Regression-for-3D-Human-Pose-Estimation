@@ -35,7 +35,7 @@ class Human36M:
         if data_split == 'train':
             return 5
         elif data_split == 'test':
-            return 200 #64
+            return 64
         else:
             assert 0, print('Unknown subset')
 
