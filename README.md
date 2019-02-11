@@ -21,7 +21,7 @@ This repo is **[PyTorch](https://pytorch.org/)** implementation of **[Integral H
 
 This code is tested under Ubuntu 16.04, CUDA 9.0, cuDNN 7.1 environment with two NVIDIA 1080Ti GPUs.
 
-Python 3.6.5 version with Anaconda 3 is used for development.
+Python 3.6.5 version with Anaconda 3 and PyTorch 1.0.0 is used for development.
 
 ## Directory
 
