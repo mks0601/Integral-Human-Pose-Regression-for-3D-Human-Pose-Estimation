@@ -134,6 +134,17 @@ The PA MPJPEs of the paper are from protocol 1, however, note that protocol 2 us
 
 * Pre-trained model of protocol 2 [[model](https://cv.snu.ac.kr/research/Integral3DHumanPose/model/snapshot_16.pth.tar)]
 
+## Troubleshooting
+If you get an extremely large error, disable cudnn for batch normalization. This typically occurs in low version of PyTorch.
+
+```
+# PYTORCH=/path/to/pytorch
+# for pytorch v0.4.0
+sed -i "1194s/torch\.backends\.cudnn\.enabled/False/g" ${PYTORCH}/torch/nn/functional.py
+# for pytorch v0.4.1
+sed -i "1254s/torch\.backends\.cudnn\.enabled/False/g" ${PYTORCH}/torch/nn/functional.py
+```
+
 ## Acknowledgement
 This repo is largely modified from [Original PyTorch repo of IntegralHumanPose](https://github.com/JimmySuen/integral-human-pose).
 
