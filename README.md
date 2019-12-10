@@ -1,6 +1,6 @@
 # Integral-Human-Pose-Regression-for-3D-Human-Pose-Estimation
 <p align="center">
-<img src="https://cv.snu.ac.kr/research/Integral3DHumanPose/figs/1.png" width="400" height="250"> <img src="https://cv.snu.ac.kr/research/Integral3DHumanPose/figs/2.png" width="400" height="250">
+<img src="https://drive.google.com/uc?export=view&id=17ZcWVKdDhMx1FMcjxoNy2tbmT53DoswU" width="400" height="250"> <img src="https://drive.google.com/uc?export=view&id=176p8Zp8ao17ZCFwSwArnwJliXD9jVsip" width="400" height="250">
 </p>
 
 ## Introduction
