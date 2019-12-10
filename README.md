@@ -115,9 +115,6 @@ Here I report the performance of the model from this repo and [the original pape
 ### Results on Human3.6M dataset
 The tables below are PA MPJPE and MPJPE on Human3.6M dataset. Provided `config.py` file is used to achieve below results. It's currently slightly worse than the performance of the original paper, however I'm trying to achieve the same performance. I think training schedule has to be changed.
 
-#### Protocol 1 (training subjects: 1,5,6,7,8,9, testing subjects: 11)
-Protocol 1 model and result will be available soon!!
-
 #### Protocol 2 (training subjects: 1,5,6,7,8, testing subjects: 9, 11), PA MPJPE
 The PA MPJPEs of the paper are from protocol 1, however, note that protocol 2 uses smaller training set.
 
@@ -132,7 +129,7 @@ The PA MPJPEs of the paper are from protocol 1, however, note that protocol 2 us
 | my repo | 50.8 | 52.3 | 54.8 | 57.9 | 52.8 | 47.0 | 52.1 | 62.0 | 73.7 | 52.6 | 58.3 | 50.4 | 40.9 | 54.1 | 45.1 | 53.9 |
 | [original paper](https://arxiv.org/abs/1711.08229) | 47.5 | 47.7 | 49.5 | 50.2 | 51.4 | 43.8 | 46.4 | 58.9 | 65.7 | 49.4 | 55.8 | 47.8 | 38.9 | 49.0 | 43.8 | 49.6 |
 
-* Pre-trained model of protocol 2 [[model](https://cv.snu.ac.kr/research/Integral3DHumanPose/model/snapshot_16.pth.tar)]
+* Pre-trained model of protocol 2 [[model](https://drive.google.com/drive/folders/1mGgreD2e8rk_E35tbIkJ9T_kENNROiL3?usp=sharing)]
 
 ## Troubleshooting
 If you get an extremely large error, disable cudnn for batch normalization. This typically occurs in low version of PyTorch.
