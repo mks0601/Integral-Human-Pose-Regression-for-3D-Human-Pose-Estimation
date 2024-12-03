@@ -129,7 +129,7 @@ The PA MPJPEs of the paper are from protocol 1, however, note that protocol 2 us
 | my repo | 50.8 | 52.3 | 54.8 | 57.9 | 52.8 | 47.0 | 52.1 | 62.0 | 73.7 | 52.6 | 58.3 | 50.4 | 40.9 | 54.1 | 45.1 | 53.9 |
 | [original paper](https://arxiv.org/abs/1711.08229) | 47.5 | 47.7 | 49.5 | 50.2 | 51.4 | 43.8 | 46.4 | 58.9 | 65.7 | 49.4 | 55.8 | 47.8 | 38.9 | 49.0 | 43.8 | 49.6 |
 
-* Pre-trained model of protocol 2 [[model](https://1drv.ms/u/s!All7gdNh7XE5pDtsxmiyO7OOOlxA?e=nTJGdF)]
+* Pre-trained model of protocol 2 [[model](https://github.com/mks0601/Integral-Human-Pose-Regression-for-3D-Human-Pose-Estimation/releases/download/1.0/snapshot_16.pth.tar)]
 
 ## Troubleshooting
 If you get an extremely large error, disable cudnn for batch normalization. This typically occurs in low version of PyTorch.
